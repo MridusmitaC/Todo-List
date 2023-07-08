@@ -5,10 +5,10 @@
 }
 
 body {
-  background-color: #f5f5f5;
+  background-color: #001219;
   color: #444;
   font-family: 'Poppins', sans-serif;
-   display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -16,16 +16,9 @@ body {
   margin: 0;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
-
 h1 {
-  color: rgb(179, 131, 226);
+/*   color: rgb(155, 161, 226); */
+  color: #90e0ef;
   font-size: 6rem;
   text-align: center;
   opacity: 0.4;
@@ -33,15 +26,14 @@ h1 {
 
 form {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  width: 100%;
+  max-width: 100%;
   width: 400px;
-  margin: 1rem;
 }
 
 .input {
   border: none;
   color: #444;
-  font-size: 1.8rem;
+  font-size: 2rem;
   padding: 1rem 2rem;
   display: block;
   width: 100%;
@@ -52,18 +44,18 @@ form {
 }
 
 .input:focus {
-  outline-color: rgb(179, 131, 226);
+  outline-color: rgb(179, 161, 226);
 }
 
 .todos {
-  background-color: #fff;
+  background-color: #caf0f8;
   padding: 0;
   margin: 0;
   list-style-type: none;
 }
 
 .todos li {
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #caf0f8;
   cursor: pointer;
   font-size: 1.5rem;
   padding: 1rem 2rem;
